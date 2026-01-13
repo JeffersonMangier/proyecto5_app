@@ -1,33 +1,41 @@
-# my-new-repo
-# Proyecto de Anuncios de Coches
+# 🚗 Car Sales Analysis & Dashboard
 
-## Descripción
-Este proyecto tiene como objetivo realizar un análisis exploratorio de datos sobre un conjunto de anuncios de coches utilizando la biblioteca Plotly Express y crear una aplicación web interactiva para visualizar los resultados utilizando Streamlit.
+## 📋 Project Description
+This project focuses on the **Exploratory Data Analysis (EDA)** of a car advertisement dataset. The goal is to visualize market trends and provide an interactive tool for users to explore the relationship between vehicle attributes (like odometer and year) and their price.
 
-## Análisis Exploratorio de Datos (EDA)
-- Se ha realizado un análisis exploratorio de datos en el archivo `notebooks/EDA.ipynb` utilizando Jupyter Notebook y Plotly Express.
-- Se exploraron diferentes aspectos del conjunto de datos, como el odómetro, el año del coche, el precio, etc.
+The solution consists of a Jupyter Notebook for the initial deep-dive analysis and a web application built with **Streamlit** for public deployment.
 
-## Aplicación Web
-La aplicación web está desarrollada utilizando Streamlit y ofrece las siguientes funcionalidades:
+## 🛠️ Tools & Technologies
+* **Python** (Pandas)
+* **Visualization:** Plotly Express (Interactive charts)
+* **Web Framework:** Streamlit
+* **Deployment:** Render
 
-- Construcción de un histograma para el odómetro de los coches.
-- Construcción de un gráfico de dispersión para visualizar la relación entre el año del coche y el precio.
+## 📊 App Features
+The web application offers the following interactive functionalities:
+* **Odometer Analysis:** Generates a histogram to visualize the distribution of vehicle mileage across the dataset.
+* **Price vs. Year Correlation:** A scatter plot to analyze how the vehicle's manufacturing year influences its market price.
+* **Interactive Controls:** Users can trigger specific visualizations using simple UI buttons.
 
-## Cómo Ejecutar la Aplicación
-1. Asegúrate de tener Python instalado.
-2. Crea y activa un entorno virtual (opcional pero recomendado).
-3. Instala las dependencias utilizando `pip install -r requirements.txt`.
-4. Ejecuta la aplicación usando `streamlit run app.py`.
+## 🚀 Live Demo
+You can access the running application here:
+[**View Dashboard on Render**](https://proyecto5-app.onrender.com)
 
-## Render Dashboard
-https://proyecto5-app.onrender.com
+## 💻 How to Run Locally
 
-## Estructura del Proyecto
-- **notebooks:** Contiene el cuaderno de Jupyter utilizado para el análisis exploratorio de datos.
-- **streamlit:** Directorio que almacena la configuración de Streamlit.
-- **app.py:** Código fuente de la aplicación web.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
+    ```
+2.  **Install dependencies:**
+    Make sure you have Python installed, then run:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3.  **Run the Streamlit app:**
+    ```bash
+    streamlit run app.py
+    ```
 
-## Colaboración
-Siéntete libre de colaborar, enviar problemas o mejoras mediante solicitudes de extracción.
-
+---
+*Project developed by [Jefferson Torres Mangier].*
